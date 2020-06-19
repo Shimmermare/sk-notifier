@@ -27,11 +27,11 @@ const EMBED_TEMPLATE = {
     }
 }
 const WEBHOOK_TEMPLATE = {
-    'username': 'Держатель в курсе',
-    'avatar_url': 'https://discordemoji.com/assets/emoji/coolstorybob.png',
+	// Don't override name and avatar
+    // 'username': 'Держатель в курсе',
+    // 'avatar_url': 'https://discordemoji.com/assets/emoji/coolstorybob.png',
     'embeds': []
 }
-
 
 function run() {
     Logger.log('Checking for new chapters...')
