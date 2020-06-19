@@ -3,6 +3,8 @@
 A meme program written in GoogleScript that notifies your Discord guild when a new chapter of certain fanfiction is posted.  
 That fanfic, speaking precisely, is https://ponyfiction.org/story/6196/  
 
+Default hooks API URL is: `https://script.google.com/macros/s/AKfycbx2TW3z-ZqEoiXA4P53uJhWE2bzgGoiuAHtJioi8SsqBlaG_xV6/exec`  
+
 ### Deploy ###
 1. Create two Apps Script projects: sk-notifier-task (`sk-notifier-task.gs` and `lib-he.gs`) and sk-notifier-hooks (only `sk-notifier-hooks.gs`).
 2. Add time trigger to sk-notifier-task to run it via `run()` repeatedly (10min is good).
