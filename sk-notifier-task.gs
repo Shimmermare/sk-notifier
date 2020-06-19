@@ -15,9 +15,8 @@ const GED_INFO = {
 }
 const EMBED_TEMPLATE = {
     'author': GED_INFO,
-    'title': '**Вышла новая глава Стальных Крыльев!**',
+    'title': '**Вышла новая глава Стальных Крыльев**',
     'url': PONYFICTION_SK_URL,
-    'description': 'Боже, как же хочется Скраппичку!',
     'color': 9849600,
     'fields': [],
     'image': {
